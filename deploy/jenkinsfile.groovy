@@ -1,6 +1,6 @@
 #!groovy
 //电子房价牌
-library 'CoreWeb'
+//library 'CoreWeb'
 def map = [:]
 map.put("PROJECT_FOLDER","src/CoreWeb")
 map.put('PROJECT_NAME','CoreWeb')
