@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\MyProject\\jenkinsTest\\CoreWeb\\CoreWeb\\CoreWeb.csproj": {}
+    "D:\\Project\\MyProject\\jenkinsTest\\src\\CoreWeb\\CoreWeb.csproj": {}
   },
   "projects": {
-    "D:\\Project\\MyProject\\jenkinsTest\\CoreWeb\\CoreWeb\\CoreWeb.csproj": {
+    "D:\\Project\\MyProject\\jenkinsTest\\src\\CoreWeb\\CoreWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\MyProject\\jenkinsTest\\CoreWeb\\CoreWeb\\CoreWeb.csproj",
+        "projectUniqueName": "D:\\Project\\MyProject\\jenkinsTest\\src\\CoreWeb\\CoreWeb.csproj",
         "projectName": "CoreWeb",
-        "projectPath": "D:\\Project\\MyProject\\jenkinsTest\\CoreWeb\\CoreWeb\\CoreWeb.csproj",
+        "projectPath": "D:\\Project\\MyProject\\jenkinsTest\\src\\CoreWeb\\CoreWeb.csproj",
         "packagesPath": "C:\\Users\\ljzheng\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\MyProject\\jenkinsTest\\CoreWeb\\CoreWeb\\obj\\",
+        "outputPath": "D:\\Project\\MyProject\\jenkinsTest\\src\\CoreWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
