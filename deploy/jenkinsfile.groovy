@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'dotnet publish -c:Release -o ${WORKSPACE}/deploy/jenkins_publish/src/CoreWeb/CoreWeb.csproj'
+                sh 'dotnet publish -c:Release -o ${WORKSPACE}/test2/src/CoreWeb/CoreWeb.csproj'
             }
         }
     }

@@ -7,14 +7,14 @@ pipeline {
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '10001', url: 'https://github.com/Linky008/jenkinsTest']]])
             }
         }
-        stage('Test') {
+        stage('Auto Test') {
             steps {
-                echo 'Testing'
+                echo 'testing now...'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying'
+                sh 'dotnet publish -c:Release -o ${WORKSPACE}/src/CoreWeb/CoreWeb.csproj'
             }
         }
     }
